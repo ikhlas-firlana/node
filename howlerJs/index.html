@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>howlerJs</title>
+    </head>
+    <body>
+        <button id="play">play</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                var sound = new Howl({
+                    src: ['assets/sample_1.mp3']
+                });
+
+                $("#play").click(function(){
+                    sound.play();
+                });
+            });
+        </script>
+    </body>
+</html>
