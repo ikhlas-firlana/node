@@ -1,0 +1,16 @@
+{
+  "name": "sequelizejs",
+  "version": "1.0.0",
+  "description": "install cli ``` npm install --save sequelize-cli ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.7.6",
+    "sequelize-cli": "^5.4.0"
+  }
+}
